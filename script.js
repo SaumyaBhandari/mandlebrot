@@ -4,7 +4,7 @@ const canvas = document.getElementById('mandelbrotCanvas');
         let centerX = 0;
         let centerY = 0;
         let scale = 150;
-        let maxIterations = 100000;
+        let maxIterations = 50;
 
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
